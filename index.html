@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Clone</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background:#e3e6e6;
+        }
+
+        .navbar-custom{
+            background:#131921;
+        }
+
+        .menu{
+            background:#232f3e;
+            color:white;
+        }
+
+        .hero{
+            background:linear-gradient(to right, #c471f5, #fa71cd);
+            padding:60px;
+        }
+
+        .card img{
+            height:150px;
+            object-fit:cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-4" href="#">amazon</a>
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                
+                <!-- Search -->
+                <form class="d-flex flex-grow-1 mx-3">
+                    <input class="form-control" type="search" placeholder="Search Amazon">
+                    <button class="btn btn-warning ms-2" type="submit">Search</button>
+                </form>
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Account & Lists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Cart</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu -->
+    <div class="menu py-2">
+        <div class="container">
+            <span class="me-3">All</span>
+            <span class="me-3">Today's Deals</span>
+            <span class="me-3">Prime Video</span>
+            <span class="me-3">Customer Service</span>
+            <span>Sell</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1>Fill your Easter basket with joy</h1>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container my-4">
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Shop for your home essentials</h5>
+                        <img src="https://powerhouseexpress.com.pk/cdn/shop/collections/bath-essentials.webp?v=1745922223" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Get your game on</h5>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIDJwT58UWZTsmxsEJalrL_ASrD4qyyo2rOg&s" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Shop Fashion for less</h5>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIDJwT58UWZTsmxsEJalrL_ASrD4qyyo2rOg&s" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>New home arrivals under $50</h5>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgBoUzDiaq8p3EBh3tZCQsgJi_m9twAeayXw&s" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
